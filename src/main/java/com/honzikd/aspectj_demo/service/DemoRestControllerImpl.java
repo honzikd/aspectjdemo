@@ -1,8 +1,8 @@
-package cz.honzikd.aspectj_demo.service;
+package com.honzikd.aspectj_demo.service;
 
-import cz.honzikd.aspectj_demo.annotations.TimeTracked;
-import cz.honzikd.aspectj_demo.repository.BookRecord;
-import cz.honzikd.aspectj_demo.repository.DemoCrudRepository;
+import com.honzikd.aspectj_demo.annotations.TimeTracked;
+import com.honzikd.aspectj_demo.repository.BookRecord;
+import com.honzikd.aspectj_demo.repository.DemoCrudRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

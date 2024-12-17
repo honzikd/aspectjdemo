@@ -1,4 +1,4 @@
-package cz.honzikd.aspectj_demo.service;
+package com.honzikd.aspectj_demo.service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

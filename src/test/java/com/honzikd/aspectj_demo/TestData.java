@@ -1,8 +1,8 @@
-package cz.honzikd.aspectj_demo;
+package com.honzikd.aspectj_demo;
 
-import cz.honzikd.aspectj_demo.annotations.TimeTracked;
-import cz.honzikd.aspectj_demo.repository.BookRecord;
-import cz.honzikd.aspectj_demo.repository.DemoCrudRepository;
+import com.honzikd.aspectj_demo.annotations.TimeTracked;
+import com.honzikd.aspectj_demo.repository.BookRecord;
+import com.honzikd.aspectj_demo.repository.DemoCrudRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

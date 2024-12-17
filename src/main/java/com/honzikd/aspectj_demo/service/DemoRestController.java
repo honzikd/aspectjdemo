@@ -1,7 +1,7 @@
-package cz.honzikd.aspectj_demo.service;
+package com.honzikd.aspectj_demo.service;
 
 
-import cz.honzikd.aspectj_demo.repository.BookRecord;
+import com.honzikd.aspectj_demo.repository.BookRecord;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

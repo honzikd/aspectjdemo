@@ -1,4 +1,4 @@
-package cz.honzikd.aspectj_demo.annotations;
+package com.honzikd.aspectj_demo.annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

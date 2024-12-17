@@ -1,4 +1,4 @@
-package cz.honzikd.aspectj_demo.repository;
+package com.honzikd.aspectj_demo.repository;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;

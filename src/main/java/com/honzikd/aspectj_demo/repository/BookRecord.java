@@ -1,4 +1,4 @@
-package cz.honzikd.aspectj_demo.repository;
+package com.honzikd.aspectj_demo.repository;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
