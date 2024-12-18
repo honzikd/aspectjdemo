@@ -21,6 +21,9 @@ public class DemoRestControllerImpl implements DemoRestController {
     @Autowired
     DemoCrudRepository repository;
 
+    @Autowired
+    IsbnGenerator isbnGenerator;
+
     @TimeTracked
     @Override
     public List<BookRecord> getAll() {
@@ -52,5 +55,11 @@ public class DemoRestControllerImpl implements DemoRestController {
             logger.warn("BookRecord with id: '{}' does not exist.", id);
             return toUpdate;
         }
+    }
+
+    @Override
+    public List<BookRecord> generateIsbns() {
+        List<BookRecord> allBooks = (List<BookRecord>) repository.findAll();
+        return isbnGenerator.generate(allBooks);
     }
 }

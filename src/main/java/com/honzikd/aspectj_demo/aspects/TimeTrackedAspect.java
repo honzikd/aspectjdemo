@@ -1,6 +1,7 @@
 package com.honzikd.aspectj_demo.aspects;
 
 import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.slf4j.Logger;
@@ -13,7 +14,6 @@ public class TimeTrackedAspect {
 
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
-    @SuppressWarnings("unused")
     @Around("@annotation(com.honzikd.aspectj_demo.annotations.TimeTracked)")
     public Object around(ProceedingJoinPoint joinPoint) throws Throwable {
         long timeStart = System.currentTimeMillis();

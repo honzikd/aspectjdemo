@@ -24,4 +24,7 @@ public interface DemoRestController {
 
     @PutMapping("/{id}")
     Optional<BookRecord> update(@RequestBody BookRecord bookRecord);
+
+    @GetMapping(value = "genIsbns", produces = "application/json")
+    List<BookRecord> generateIsbns();
 }

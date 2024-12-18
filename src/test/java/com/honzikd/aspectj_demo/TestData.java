@@ -22,7 +22,6 @@ public class TestData {
     @Autowired
     DemoCrudRepository repository;
 
-    @TimeTracked
     @Test
     public void createTestBookRecords() throws IOException {
 
