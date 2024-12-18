@@ -5,7 +5,7 @@ import org.aspectj.lang.annotation.Pointcut;
 public class CommonPointcuts {
 
 //    Full list of supported pointcut designators:
-//    https://docs.spring.io/spring-framework/reference/core/aop/ataspectj/pointcuts.html
+//    https://docs.spring.io/spring-framework/reference/core/aop/ataspectj/pointcuts.html#aop-pointcuts-designators
 
     @Pointcut("within(com.xyz.web..*)")
     public void inWebLayer() {}
