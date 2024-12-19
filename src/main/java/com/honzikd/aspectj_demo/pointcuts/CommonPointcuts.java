@@ -6,6 +6,7 @@ public class CommonPointcuts {
 
 //    Full list of supported pointcut designators:
 //    https://docs.spring.io/spring-framework/reference/core/aop/ataspectj/pointcuts.html#aop-pointcuts-designators
+//    https://eclipse.dev/aspectj/doc/released/progguide/index.html
 
     @Pointcut("within(com.xyz.web..*)")
     public void inWebLayer() {}
